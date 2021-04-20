@@ -10,13 +10,17 @@ namespace _1061
             int inicio, termino, hi, mi, si, ht, mt, st, dia, hora, minuto, segundo, duracao;
             string[] vet;
 
-           Console.Write("Dia "); inicio = int.Parse(Console.ReadLine());
+            vet = Console.ReadLine().Split(' ');
+            inicio = int.Parse(vet[1]);
+            
             vet = Console.ReadLine().Split(' ');
             hi = int.Parse(vet[0]);
             mi = int.Parse(vet[2]);
             si = int.Parse(vet[4]);
 
-            Console.Write("Dia "); termino = int.Parse(Console.ReadLine());
+            vet = Console.ReadLine().Split(' ');
+            termino = int.Parse(vet[1]);
+
             vet = Console.ReadLine().Split(' ');
             ht = int.Parse(vet[0]);
             mt = int.Parse(vet[2]);
