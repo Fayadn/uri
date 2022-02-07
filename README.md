@@ -1,3 +1,3 @@
-# uri
-Exercicios Iniciante URI
-qualquer coisa ai
+# URI
+Lista de Exercicios Iniciante URI (https://www.beecrowd.com.br/) em linguagem C#
+
